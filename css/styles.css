@@ -841,20 +841,6 @@ width: 100%;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8E8F99;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hidden-checkbox {
-  display: none;
-}
-
-
-.hidden-checkbox:checked + .checkbox-icon {
-  background-color: #404BBF;
-  fill: #f4f4f4;
 }
 
 .btn-submit{
@@ -906,6 +892,7 @@ width: 100%;
   fill: transparent;
   margin-right: 8px;
 }
+
 
 .modal .checkbox-span:hover,
 .modal .checkbox-span:focus{
